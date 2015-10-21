@@ -1,7 +1,15 @@
-.site-title {
+h1 {
+  font-family: $header-font-family;
   font-size: 48px;
   letter-spacing: .05em;
-  line-height: 1.2;
-  margin: 1em 0;
+  line-height: .99;
+  margin-top: 1em;
+  margin-left: -2px;
+  text-rendering: optimizeLegibility;
   text-transform: uppercase;
+}
+
+em,
+i {
+  font-family: 'crimsonitalic', $base-font-family;
 }

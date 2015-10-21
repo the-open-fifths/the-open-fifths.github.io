@@ -3,13 +3,31 @@
 ---
 @charset "utf-8";
 
+// Adam CG.Pro (https://www.behance.net/gallery/13756975/ADAMCG-PRO-Free-Typeface) Subset:
+// ABCDEFGHIJKLMNOPQRSTUVWXYZ
+@font-face {
+  font-family: 'adam.cg_pro';
+  src: url('/fonts/adam.cg_pro-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
+// Crimson Text Italic (https://github.com/skosch/Crimson) Subset:
+// ,-.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz–‘’“”
+@font-face {
+  font-family: 'crimsonitalic';
+  src: url('/fonts/crimson-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Georgia, serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+$header-font-family: 'adam.cg_pro', Helvetica, Arial, sans-serif;
 
 $spacing-unit:     30px;
 
@@ -38,7 +56,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

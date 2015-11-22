@@ -10,6 +10,7 @@ i {
 }
 
 .color-splash {
+  background-color: transparent;
   margin-bottom: 1em;
 }
 
@@ -19,13 +20,23 @@ i {
   }
 }
 
-.center {
-  text-align: center;
-}
-
+// Logo
 .group-logo-wrapper {
   margin: 0 auto;
   max-width: 14em;
+
+  .embellishment {
+    path {
+      fill: $logo-color-embellishment;
+      opacity: .5;
+    }
+  }
+
+  .word {
+    path {
+      fill: $logo-color-text;
+    }
+  }
 }
 
 @include media-query-min($on-laptop) {
@@ -33,6 +44,7 @@ i {
     max-width: 16em;
   }
 }
+
 
 .icon-wrapper {
   @include display-typeface;

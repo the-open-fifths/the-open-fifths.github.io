@@ -1,18 +1,18 @@
 h1 {
   @include display-typeface;
-  font-family: $display-font-family;
   font-size: 48px;
   margin-top: 1em;
 }
 
 em,
 i {
-  font-family: 'crimsonitalic', $base-font-family;
+  font-family: 'crimsonitalic', $font-family-base;
 }
 
 .color-splash {
   margin-bottom: 1em;
 }
+
 @include media-query-min($on-laptop) {
   .color-splash {
     padding: 1em 0;

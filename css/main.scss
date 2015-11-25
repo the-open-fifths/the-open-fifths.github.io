@@ -10,13 +10,12 @@
   src: url('/fonts/bebaskai/bebaskai.woff') format('woff');
 }
 
-// Crimson Text Italic (https://github.com/skosch/Crimson) Subset:
-// ,-.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz–‘’“”
+// Crimson Text Italic (https://github.com/skosch/Crimson)
 @font-face {
   font-family: 'crimsonitalic';
   font-style: normal;
   font-weight: normal;
-  src: url('/fonts/crimson-italic-webfont.woff') format('woff');
+  src: url('/fonts/crimson/crimson-italic-webfont.woff') format('woff');
 }
 
 // Our variables

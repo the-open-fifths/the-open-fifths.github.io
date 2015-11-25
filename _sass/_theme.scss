@@ -4,14 +4,52 @@ h1 {
   margin-top: 1em;
 }
 
+h2 {
+  @include display-typeface;
+  font-size: 24px;
+}
+
+@include media-query-min($on-laptop) {
+  h2 {
+    font-size: 52px;
+  }
+}
+
+.home h2 {
+  color: $winter-blue;
+}
+
+h3 {
+  font-family: 'crimsonitalic', $font-family-base;
+  font-width: normal;
+}
+
 em,
 i {
   font-family: 'crimsonitalic', $font-family-base;
 }
 
+abbr {
+  font-variant: small-caps;
+  text-transform: lowercase;
+
+  &.with-leading {
+    padding-left: .1em;
+  }
+}
+
+date sup {
+  padding-left: .1em;
+}
+
 .color-splash {
-  background-color: transparent;
+  background-position: center center;
+  background-size: cover;
   margin-bottom: 1em;
+}
+
+.winter .color-splash {
+  background-image: url('/images/snow-trees-2800.jpg');
 }
 
 @include media-query-min($on-laptop) {
@@ -24,17 +62,19 @@ i {
 .group-logo-wrapper {
   margin: 0 auto;
   max-width: 14em;
+}
 
+.winter .group-logo-wrapper {
   .embellishment {
     path {
-      fill: $logo-color-embellishment;
-      opacity: .5;
+      fill: $winter-blue-embellishment;
+      opacity: .8;
     }
   }
 
   .word {
     path {
-      fill: $logo-color-text;
+      fill: $winter-blue-text;
     }
   }
 }

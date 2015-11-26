@@ -72,6 +72,14 @@ $on-laptop:        800px;
   }
 }
 
+@mixin media-query-retina-min($device) {
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: $device),
+  only screen and (min-resolution: 192dpi) and (min-width: $device) {
+    @content;
+  }
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   'base',

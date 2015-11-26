@@ -49,12 +49,52 @@ date sup {
 }
 
 .winter .color-splash {
-  background-image: url('/images/snow-trees-2800.jpg');
+  background-image: url('/images/snow-trees-small.jpg');
+}
+
+@include media-query-min(600px) {
+  .winter .color-splash {
+    background-image: url('/images/snow-trees-medium.jpg');
+  }
+}
+
+@include media-query-retina-min(700px) {
+  .winter .color-splash {
+    background-image: url('/images/snow-trees-large.jpg');
+  }
 }
 
 @include media-query-min($on-laptop) {
+  .winter .color-splash {
+    background-image: url('/images/snow-trees-large.jpg');
+  }
+
   .color-splash {
     padding: 1em 0;
+  }
+}
+
+@include media-query-retina-min(1400px) {
+  .winter .color-splash {
+    background-image: url('/images/snow-trees-large2x.jpg');
+  }
+}
+
+@include media-query-min(2400px) {
+  .winter .color-splash {
+    background-image: url('/images/snow-trees-large2x.jpg');
+  }
+}
+
+@include media-query-retina-min(2400px) {
+  .winter .color-splash {
+    background-image: url('/images/snow-trees-4k.jpg');
+  }
+}
+
+@include media-query-min(3840px) {
+  .winter .color-splash {
+    background-image: url('/images/snow-trees-4k.jpg');
   }
 }
 

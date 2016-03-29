@@ -41,7 +41,7 @@ body {
   color: $text-color;
   font-family: $font-family-base;
   font-size: $font-size-base;
-  font-weight: 300;
+  font-weight: 400;
   line-height: $line-height-base;
   -webkit-text-size-adjust: 100%;
 }
@@ -101,15 +101,9 @@ a {
   @extend %clearfix;
 
   margin: 0 auto;
-  max-width: 800px - ($spacing-unit * 2);
+  max-width: 33em;
   padding-left: $spacing-unit;
   padding-right: $spacing-unit;
-
-  @include media-query-max($on-laptop) {
-    max-width: 800px - $spacing-unit;
-    padding-left: $spacing-unit / 2;
-    padding-right: $spacing-unit / 2;
-  }
 }
 
 // Clearfix

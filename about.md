@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About—The Open Fifhs
+title: About The Open Fifhs
 permalink: /about/
 ---
-# About
 
 ## Artist Profiles
 

@@ -10,16 +10,8 @@
   src: url('/fonts/bebaskai/bebaskai.woff') format('woff');
 }
 
-// Crimson Text Italic (https://github.com/skosch/Crimson)
-@font-face {
-  font-family: 'crimsonitalic';
-  font-style: normal;
-  font-weight: normal;
-  src: url('/fonts/crimson/crimson-italic-webfont.woff') format('woff');
-}
-
 // Our variables
-$font-family-base:    Georgia, serif;
+$font-family-base:    'Crimson Text', Georgia, serif;
 $font-family-display: 'Bebas Kai', Helvetica, Arial, sans-serif;
 $font-size-base:      16px;
 $font-size-small:     $font-size-base * 0.875;

@@ -1,7 +1,7 @@
 // Page content
 .page-content {
-  max-width: 33em;
   margin: 0 auto;
+  max-width: 33em;
   padding: $spacing-unit 0;
 }
 
@@ -69,4 +69,10 @@
       font-size: 18px;
     }
   }
+}
+
+// Footer
+.site-footer {
+  margin-bottom: 20em;
+  margin-top: 2em;
 }

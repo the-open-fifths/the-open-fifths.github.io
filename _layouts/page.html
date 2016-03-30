@@ -5,6 +5,8 @@ layout: default
   <h1 class="page-title center">{{ page.title }}</h1>
 </header>
 
-<article class="page-content">
-  {{ content }}
-</article>
+<div class="wrapper">
+  <article class="page-content {{ page.presentation_class }}">
+    {{ content }}
+  </article>
+</div>

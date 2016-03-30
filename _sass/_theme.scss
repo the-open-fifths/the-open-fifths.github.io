@@ -42,6 +42,25 @@ abbr {
   white-space: nowrap;
 }
 
+.selfref {
+  color: $text-color;
+  position: relative;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:hover:before {
+    content: '◊';
+    left: -.7em;
+    position: absolute;
+  }
+
+  &:visited {
+    color: $text-color;
+  }
+}
+
 date sup {
   padding-left: .1em;
 }
@@ -146,5 +165,20 @@ date sup {
 @include media-query-min($on-laptop) {
   .social-icon {
     margin-top: 2em;
+  }
+}
+
+// Page-specific styles
+.about {
+  h3 {
+    font-family: $font-family-display;
+    margin-top: 2em;
+    text-transform: uppercase;
+
+    small {
+      color: $grey-color;
+      font-size: .7em;
+      padding-left: 1em;
+    }
   }
 }

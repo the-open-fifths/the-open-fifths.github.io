@@ -43,7 +43,7 @@ Andy grew up in Goshen where he now lives. He teaches biology at Goshen High
 School. Andy enjoys singing most types of music, but has always loved singing in
 small mixed and men’s vocal groups. He has fond memories of singing in a men’s
 octet, Farther Along, and touring with Goshen College choirs. He enjoys outdoor
-activities with my wife, Ali, and their golden retriever.
+activities with his wife, Ali, and their golden retriever.
 
 <h3>
   <a id="martin" class="selfref" href="#martin">Martin Brubaker</a>

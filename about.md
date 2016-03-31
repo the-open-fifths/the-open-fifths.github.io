@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About The Open Fifhs
+title: About
 permalink: /about/
 presentation_class: about
 ---

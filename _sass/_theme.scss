@@ -11,7 +11,7 @@ h2 {
 
 @include media-query-min($on-laptop) {
   h2 {
-    font-size: 52px;
+    font-size: 36px;
   }
 }
 
@@ -40,6 +40,11 @@ abbr {
 
 .home a {
   white-space: nowrap;
+}
+
+.home-navigation a {
+  font-family: $font-family-display;
+  text-transform: uppercase;
 }
 
 .selfref {
@@ -125,6 +130,11 @@ date sup {
 .group-logo-wrapper {
   margin: 0 auto;
   max-width: 14em;
+}
+
+.site-logo-wrapper {
+  margin-bottom: 0;
+  max-width: 4em;
 }
 
 .winter .group-logo-wrapper {
